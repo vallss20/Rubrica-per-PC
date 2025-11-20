@@ -1,56 +1,56 @@
-# 📒 Rubrica per PC  
-### Università degli Studi di Salerno (UNISA)  
-**Corso di Ingegneria Informatica**  
-**Gruppo 02 - Progetto Universitario**  
+# 📒 Address Book for PC  
+### University of Salerno (UNISA)  
+**Software Engineering Course**  
+**Group 02 - University Project**  
 
 ---
 
-## 🚀 Descrizione del Progetto  
-Questo progetto consiste nello sviluppo di un'applicazione desktop dedicata alla gestione di una rubrica. L'obiettivo è fornire uno strumento intuitivo e funzionale che consenta agli utenti di salvare, organizzare e ricercare facilmente i contatti.  
+## 🚀 Project Description  
+This project consists of developing a desktop application dedicated to address book management. The goal is to provide an intuitive and functional tool that allows users to save, organize, and search contacts easily.  
 
-## 📋 Funzionalità Principali  
-- **Registrazione e Login:** Accesso sicuro con credenziali utente.  
-- **Gestione Contatti:** Aggiunta, modifica, eliminazione e visualizzazione dei contatti.  
-- **Ricerca Avanzata:** Filtri personalizzati per trovare rapidamente i contatti.  
-- **Esportazione/Importazione:** Salvataggio dei contatti in formati standard (es. CSV).  
-- **Interfaccia User-Friendly:** Utilizzo di JavaFX per un'esperienza utente moderna e accattivante.  
+## 📋 Main Features  
+- **Registration and Login:** Secure access with user credentials.  
+- **Contact Management:** Add, edit, delete, and view contacts.  
+- **Advanced Search:** Custom filters to quickly find contacts.  
+- **Export/Import:** Save contacts in standard formats (e.g., CSV).  
+- **User-Friendly Interface:** JavaFX for a modern and appealing user experience.  
 
-## 🛠️ Tecnologie Utilizzate  
-- **Linguaggio di Programmazione:** Java  
+## 🛠️ Technologies Used  
+- **Programming Language:** Java  
 - **Database:** PostgreSQL  
-- **Framework e Librerie:** JavaFX, dotenv-java  
-- **Sicurezza:** BCrypt per hash delle password, dotenv per gestione credenziali  
-- **Strumenti di Versionamento:** Git/GitHub  
-- **Gestione del Progetto:** MAVEN  
-- **IDE Utilizzato:** NetBeans 23  
+- **Frameworks and Libraries:** JavaFX, dotenv-java  
+- **Security:** BCrypt for password hashing, dotenv for credential management  
+- **Version Control Tools:** Git/GitHub  
+- **Build Management:** MAVEN  
+- **IDE Used:** NetBeans 23  
 
-## 👥 Team di Sviluppo  
-Il progetto è stato realizzato dal **Gruppo 02**, composto da 4 studenti del corso di Ingegneria Informatica presso l'Università degli Studi di Salerno (UNISA):  
+## 👥 Development Team  
+The project was created by **Group 02**, consisting of 4 students from the Software Engineering course at the University of Salerno (UNISA):  
 
 - **Postiglione Vittorio**  
 - **Quaranta Valeria**  
 - **Sanzari Mattia**  
 - **Zouhri Anuar**  
 
-## 📦 Installazione  
+## 📦 Installation  
 
-### **Clonare il repository:**  
-```bash  
-git clone https://github.com/CupoMeridio/Ingegneria-del-software-2024-2025.git  
-```  
+### **Clone the repository:**  
+```bash
+git clone https://github.com/CupoMeridio/Ingegneria-del-software-2024-2025.git
+```
 
-### **Configurare il database:**  
-L'applicazione utilizza un database online tramite i servizi offerti da [Aiven](https://aiven.io), pertanto non è necessario configurare un database locale.
+### **Configure the database:**  
+The application uses a remote database through services provided by [Aiven](https://aiven.io), so setting up a local database is not required.
 
-### **Configurazione delle variabili d'ambiente:**  
-Per motivi di sicurezza, le credenziali del database sono gestite tramite variabili d'ambiente. Segui questi passaggi:
+### **Environment variables configuration:**  
+For security reasons, database credentials are managed via environment variables. Follow these steps:
 
-1. **Copia il file di esempio:**  
+1. **Copy the example file:**  
    ```bash
    cp .env.example .env
    ```
 
-2. **Modifica il file .env** con le tue credenziali del database:
+2. **Edit the .env file** with your database credentials:
    ```
    DB_HOST=your-database-host.com
    DB_PORT=5432
@@ -60,18 +60,18 @@ Per motivi di sicurezza, le credenziali del database sono gestite tramite variab
    DB_SSL=require
    ```
 
-3. **⚠️ IMPORTANTE:** Il file `.env` è già incluso nel `.gitignore` per evitare di caricare le credenziali su GitHub. Non rimuoverlo mai dal `.gitignore`.  
+3. **⚠️ IMPORTANT:** The `.env` file is already included in `.gitignore` to avoid committing credentials to GitHub. Do not remove it from `.gitignore`.  
 
-### **Compilare ed eseguire il progetto:**  
-Aprire il progetto in NetBeans 23. MAVEN gestirà automaticamente le dipendenze.  
+### **Build and run the project:**  
+Open the project in NetBeans 23. MAVEN will automatically manage dependencies.  
 
-### **File eseguibile disponibile:**  
-Nel repository è disponibile la prima release del progetto. Per eseguire il file .jar è necessario scaricare ed installare l'ambiente Java. Puoi scaricarlo dal seguente link: [Java Downloads | Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).  
+### **Executable file available:**  
+The repository contains the first release of the project. To run the .jar file you need to download and install the Java runtime. You can download it here: [Java Downloads | Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).  
 
-## 📄 Documentazione
-Nel repository è presente l'intera documentazione redatta durante la progettazione e lo sviluppo del progetto. Questa include:
+## 📄 Documentation
+The repository includes the full documentation produced during the project's design and development. This includes:
 
-- Analisi dei requisiti
-- Diagrammi UML (casi d'uso, diagrammi delle classi, sequenze, ecc.)
-- Piano di sviluppo
-- Manuale tecnico in formato html
+- Requirements analysis
+- UML diagrams (use cases, class diagrams, sequence diagrams, etc.)
+- Development plan
+- Technical manual in HTML format
